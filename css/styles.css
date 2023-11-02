@@ -1,0 +1,261 @@
+
+ 
+
+.logotype-web{
+    color: var(--IRIS, #4D5AE5);
+        font-family: 'Raleway', sans-serif;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 21px;
+        /* 116.667% */
+        letter-spacing: 0.54px;
+        text-transform: uppercase;
+        line-height: 1.17
+
+
+}
+  
+.logotype{
+    color: var(--NAVY-BLUE, #4d5ae5 );
+        font-family: 'Raleway', sans-serif;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 1.17;
+        /* 116.667% */
+        letter-spacing: 0.54px;
+        text-transform: uppercase;
+         
+}
+
+.span{
+    color: #2e2f42;
+}
+
+.menu-link{
+    color: var(--NAVY-BLUE, #2E2F42);
+        /* Body Medium */
+        font-family: 'Roboto', sans-serif;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 24px;
+        /* 150% */
+        letter-spacing: 0.32px;
+}
+
+.menu-link:hover{
+    color: var(--OCEAN, #404bbf);
+}
+
+.address{
+    font-style: normal;
+}
+
+
+.contacts-address{
+    color: var(--SLATE, #434455);
+        /* Body */
+        font-family: 'Roboto', sans-serif;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 24px;
+        /* 150% */
+        letter-spacing: 0.32px;
+}
+
+.contacts-address:hover{
+    color: var(--OCEAN, #404bbf);
+        /* Body */
+            font-family: 'Roboto', sans-serif;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 24px;
+            /* 150% */
+            letter-spacing: 0.32px;
+        }
+
+    .basic{
+        font-family: 'Roboto', sans-serif;
+        background: #FFF;
+        color: #434455;
+    }
+
+    .title{
+        color: var(--WHITE, #FFF);
+            text-align: center;
+            /* Header 1 */
+            font-family: 'Roboto', sans-serif;
+            font-size: 56px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 60px;
+            /* 107.143% */
+            letter-spacing: 1.12px;
+            line-height: 1.07;
+    }
+    .header-background{
+        
+            background: var(--NAVY-BLUE, #2E2F42);
+            
+    }
+
+        .registration{
+            background: var(--IRIS, #4D5AE5);
+            font-family: "Roboto", sans-serif;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 1.5;
+            letter-spacing: 0.04em;
+            color: #ffffff;
+            cursor: pointer;
+            
+
+                 
+    }
+
+    .button:hover{
+        background-color: #404BBF
+    }
+
+    .registration:hover{
+        background-color: #404BBF;
+         
+         
+
+    }
+
+    .kinds{
+        color: var(--NAVY-BLUE, #2E2F42);
+            /* Header 3 */
+            font-family: 'Roboto', sans-serif;
+            font-size: 20px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 24px;
+            /* 120% */
+            letter-spacing: 0.4px;
+    }
+
+    .description{
+        color: var(--SLATE, #434455);
+            /* Body */
+            font-family: 'Roboto', sans-serif;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 24px;
+            /* 150% */
+            letter-spacing: 0.32px;
+    }
+
+    .team{
+        background: var(--CLOUD, #F4F4FD);
+    }
+    .team-description{
+        color: var(--NAVY-BLUE, #2E2F42);
+            text-align: center;
+            /* Header 2 */
+            font-family: 'Roboto', sans-serif;
+            font-size: 36px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 1.11;
+            /* 111.111% */
+            letter-spacing: 0.72px;
+            text-transform: capitalize
+    }
+
+             .team-li{
+                background-color: #FFFFFF;
+             }
+
+
+
+
+    .names{
+        color: var(--NAVY-BLUE, #2E2F42);
+            /* Header 3 */
+            font-family: 'Roboto', sans-serif;
+            font-size: 20px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 24px;
+            /* 120% */
+            letter-spacing: 0.4px;
+    }
+    .profession{
+        color: var(--SLATE, #434455);
+            /* Body */
+            font-family: 'Roboto', sans-serif;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 24px;
+            /* 150% */
+            letter-spacing: 0.32px;
+    }
+
+    .products{
+        color: var(--NAVY-BLUE, #2E2F42);
+            font-family: 'Roboto', sans-serif;
+            /* Header 2 */
+            font-size: 36px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 1.11;
+            /* 111.111% */
+            letter-spacing: 0.72px;
+             
+    }
+
+    .service{
+        color: var(--NAVY-BLUE, #2E2F42);
+            /* Header 3 */
+            font-family: 'Roboto', sans-serif;
+            font-size: 20px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 24px;
+            /* 120% */
+            letter-spacing: 0.4px;
+    }
+
+    .view{
+        color: var(--SLATE, #434455);
+            /* Body */
+            font-family: 'Roboto', sans-serif;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 24px;
+            /* 150% */
+            letter-spacing: 0.32px;
+    }
+
+    .bottom{
+        background: var(--NAVY-BLUE, #2E2F42);
+    }
+    .description-bottom{
+        color: var(--CLOUD, #F4F4FD);
+            /* Body */
+            font-family: 'Roboto', sans-serif;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 24px;
+            /* 150% */
+            letter-spacing: 0.32px;
+    }
+        .logotype-studio{
+            color: var(--CLOUD, #F4F4FD);
+        }
+
+        .span-footer{
+            color: #f4f4fd;
+        }
+
+        
