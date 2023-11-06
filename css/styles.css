@@ -258,4 +258,6 @@
             color: #f4f4fd;
         }
 
-        
+        .img{
+        display: block;
+        }
