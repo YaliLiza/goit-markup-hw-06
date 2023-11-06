@@ -279,16 +279,20 @@
         display: flex;
         align-items: center;
        }
-       .menu-nav{
+       .menu-nav .menu-item{
         display: flex;
         gap: 40px;
-
-       }
-
-       .menu-item{
         padding: 24px 0;
+
        }
+
+        
        .li-adder{
+        display: flex;
+        gap: 40px;
+    }
+
+    .contacts{
         display: flex;
         gap: 40px;
     }
