@@ -26,6 +26,7 @@
         /* 116.667% */
         letter-spacing: 0.54px;
         text-transform: uppercase;
+        margin-right: 76px;
          
 }
 
@@ -267,8 +268,14 @@
        }
        .container{
         width: 1158px;
-        padding: 0 15px
+        padding: 0 15px;
+        margin: 0 auto;
        }
        img{
         display: block;
+       }
+
+       .main-navigation{
+        display: flex;
+        align-items: center;
        }
