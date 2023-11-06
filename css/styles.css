@@ -234,10 +234,12 @@
                 display: flex;
                 width: calc((100% - 72px) / 4);
                 border-radius: 0px 0px 4px 4px;
+                padding: 32px 0;
              }
 
          .biographies{
             gap: 24px;
+            display: flex;
          }
 
 
@@ -384,6 +386,8 @@
 
         .team-div{
             padding: 32px 0;
+            width: calc((100% - 72px) / 4);
+                border-radius: 0px 0px 4px 4px;
 
         }
 
@@ -418,3 +422,5 @@
         .description-bottom{
             max-width: 264px;
         }
+
+         
