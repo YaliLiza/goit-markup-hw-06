@@ -100,11 +100,12 @@
             /* 107.143% */
             letter-spacing: 1.12px;
             line-height: 1.07;
+            max-width: 496px;
     }
     .header-background{
         
             background: var(--NAVY-BLUE, #2E2F42);
-            
+            padding: 188px 0;
     }
 
         .registration{
@@ -116,6 +117,11 @@
             letter-spacing: 0.04em;
             color: #ffffff;
             cursor: pointer;
+            display: block;
+            min-width: 169px;
+            height: 56px;
+            border: none;
+            border-radius: 4px;
             
 
                  
@@ -131,6 +137,51 @@
          
 
     }
+
+
+    .benefits{
+        padding: 120px 0;
+
+    }
+
+   .visually-hidden{
+    position: absolute;
+        overflow: hidden;
+        clip: rect(0 0 0 0);
+        width: 1px;
+        height: 1px;
+        margin: -1px;
+        padding: 0;
+        border: 0;
+        white-space: nowrap;
+   }
+  
+             .description{
+             display: flex;
+              gap: 24px;
+}
+
+     .li-benefits{
+        width: calc((100% - 72px) / 4);
+     }
+
+
+     .kinds{
+        margin-bottom: 8px;
+     }
+
+
+
+
+
+
+
+
+
+
+
+
+
 
     .kinds{
         color: var(--NAVY-BLUE, #2E2F42);
