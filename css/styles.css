@@ -305,7 +305,7 @@
     a{
         text-decoration: none;
     }
-        .menu-nav{
+        .menu-item{
             display: flex;
             gap: 40p;
         }
