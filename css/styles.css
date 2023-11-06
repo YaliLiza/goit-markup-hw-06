@@ -258,4 +258,14 @@
             color: #f4f4fd;
         }
 
-       
+       .page-header{
+        border-bottom: 1px solid #e7e9fc;
+       }
+
+       .div-header{
+        display: flex;
+       }
+       .container{
+        width: 1158px;
+        padding: 0 15px
+       }
