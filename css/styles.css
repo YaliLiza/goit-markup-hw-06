@@ -305,7 +305,11 @@
     a{
         text-decoration: none;
     }
-        .menu-item{
+        .menu-nav{
             display: flex;
-            gap: 40p;
+            gap: 40px;
+        }
+
+        .menu-item{
+            gap: 40px;
         }
