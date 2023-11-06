@@ -251,6 +251,8 @@
             line-height: 24px;
             /* 120% */
             letter-spacing: 0.4px;
+            text-align: center;
+            margin-bottom: 8px;
     }
     .profession{
         color: var(--SLATE, #434455);
@@ -262,6 +264,8 @@
             line-height: 24px;
             /* 150% */
             letter-spacing: 0.32px;
+            text-align: center;
+
     }
 
     .products{
@@ -274,6 +278,7 @@
             line-height: 1.11;
             /* 111.111% */
             letter-spacing: 0.72px;
+            margin-bottom: 72px;
              
     }
 
@@ -377,5 +382,22 @@
 
         .team-div{
             padding: 32px 0;
-            
+
+        }
+
+        .portfolio{
+            padding-top: 120px;
+                padding-bottom: 120px;
+
+        }
+
+        .ophions{
+            display: flex;
+            flex-wrap: wrap;
+            column-gap: 24px;
+            row-gap: 48px;
+        }
+
+        .type-of-service{
+            width: calc((100% - 48px) / 3);
         }
