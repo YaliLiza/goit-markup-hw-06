@@ -396,7 +396,7 @@
 
         }
 
-        .ophions{
+        .options{
             display: flex;
             flex-wrap: wrap;
             column-gap: 24px;
