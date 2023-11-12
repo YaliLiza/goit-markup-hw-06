@@ -36,6 +36,7 @@
 
 .menu-link{
     position: relative;
+    color: #404bbf;
     color: var(--NAVY-BLUE, #2E2F42);
         /* Body Medium */
         font-family: 'Roboto', sans-serif;
@@ -53,8 +54,14 @@
 
 }
 
-.menu-link::after{
-    content: ''
+.menu-link::after ::content {
+    left: 0;
+    bottom: -1px;
+    height: 4px;
+    background-color: #404bbf;
+    border-radius: 2px;
+    content: '';
+    position: absolute;
 
 }
 
