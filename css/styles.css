@@ -455,7 +455,7 @@
         .description-bottom{
             max-width: 264px;
         }
-.contacts-address{
+.li-addr{
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
          
