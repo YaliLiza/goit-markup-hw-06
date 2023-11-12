@@ -55,7 +55,7 @@
 }
 
 .menu-link::after {
-    content:"
+    content:;
     left: 0;
     bottom: -1px;
     height: 4px;
