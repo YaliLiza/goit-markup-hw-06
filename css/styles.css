@@ -121,7 +121,8 @@
             max-width: 496px;
     }
     .header-background{
-        
+            background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/img-name.jpeg);
+                або background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/img-name.jpg);
             background: var(--NAVY-BLUE, #2E2F42);
             padding: 188px 0;
             background-image:url(/images/people-office\ 1.jpg);
