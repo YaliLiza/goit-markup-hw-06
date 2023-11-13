@@ -124,6 +124,11 @@
             max-width: 496px;
     }
     .header-background{
+        max-width: 1440px;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/img-name.jpeg);
             background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/img-name.jpeg);
                  
             background: var(--NAVY-BLUE, #2E2F42);
@@ -136,6 +141,7 @@
     }
 
         .registration{
+            transition:background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
             background: var(--IRIS, #4D5AE5);
             font-family: "Roboto", sans-serif;
             font-weight: 500;
