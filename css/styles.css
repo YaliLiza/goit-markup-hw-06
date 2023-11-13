@@ -474,7 +474,13 @@
 .li-addr{
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-       .current{}
-
+       .div-benefits{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #f4f4fd;
+        border-radius: 4px;
+        margin-bottom: 8px;
+       }
 
           
