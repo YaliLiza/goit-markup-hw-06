@@ -515,6 +515,12 @@
             background-color: #404bbf;
            }
 
-                                 .a-list:focus {
-                                     background-color: #404bbf;}
-                                     
+       .a-list:focus{
+      background-color: #404bbf;
+    }
+
+
+    .svg-list{
+        fill:#f4f4fd;
+        
+    }
