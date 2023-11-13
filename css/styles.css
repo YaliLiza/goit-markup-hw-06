@@ -56,7 +56,7 @@
 }
 
 .menu-link.current::after {
-    color: #404bbf;
+     
     content: '';
     width: 100%;
     left: 0;
@@ -413,7 +413,7 @@
         }
 
         .menu-item{
-            color: #404bbf;
+             
             gap: 40px;
         }
 
