@@ -55,6 +55,11 @@
 
 }
 
+
+.current{
+    color: #404bbf;
+}
+
 .menu-link.current::after {
      
     content: '';
