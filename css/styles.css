@@ -512,7 +512,10 @@
 
        }
 
-           .a-list:hover,.a-list:focus{
+           .a-list:hover{
+            background-color: #404bbf;
+           }
+           .a-list:focus{
             background-color: #404bbf;
            }
 
