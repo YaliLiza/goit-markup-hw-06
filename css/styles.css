@@ -485,6 +485,8 @@
             overflow: hidden;
         }
 
+       
+
         .img-div:hover{
             transform: translateY(0%);
         }
