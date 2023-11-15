@@ -588,6 +588,7 @@
 
         .div-foot{
             margin-right: 120px;
+            display: flex;
 
         }
 
