@@ -392,6 +392,7 @@
         align-items: center;
        }
        .container{
+        margin-right: 120px;
         flex-direction: column;
          display: flex;
         align-items: baseline;
