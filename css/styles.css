@@ -668,3 +668,7 @@
             fill:#f4f4fd;
 
         }
+
+        .direction-column{
+            flex-direction: column;
+        }
