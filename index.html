@@ -588,7 +588,7 @@
                         Name
                     </label>
                     <div class="input-in-icon">
-                        <input  id="user-name"  name="user-name" type="text" class="input-modal">
+                        <input   name="user-name" type="text" class="input-modal">
             
                         <svg width="18" height="24" class="svg-modal">
                            <use href="./images/icon-registration.svg#icon-person-black-18dp-1">
@@ -622,27 +622,19 @@
 
 
 <div class="modal-form-div">
+    <label class="modal-label" for="user-name">
+        Email
+    </label>
+    <div class="input-in-icon">
+        <input id="user-name" name="user-name" type="text" class="input-modal">
 
-        <label class="modal-label" for="user-name">
-            Email
-        </label>
-        
+        <svg width="18" height="24" class="svg-modal">
+            <use href="./images/icon-registration.svg#icon-email-black-18dp-1">
 
-        <div class="input-in-icon">
-        
-            <input  id="user-name"  name="user-name" type="text" class="input-modal">
-            
-            <svg width="18" height="24" class="svg-modal">
-                <use href="./images/icon-registration.svg#icon-email-black-18dp-1">
-            
-                </use>
-            </svg>
-        
-        </div>
- 
+            </use>
+        </svg>
 
-     
-     
+    </div>
 
 </div>
 
@@ -650,17 +642,17 @@
 
         <div class="modal-form">
             
-            <label  for="user-comment" class="modal-label">
+            <label  for=" user-comment" class="modal-label">
                  
                 Comment
                  
             </label>
-              
-            <textarea  id="user-comment" name="user-comment" placeholder="Text input"  class="textarea-modal">
+             <div class="comment">
+            <textarea name="user-comment" placeholder="Text input"  id="user-comment"  class="textarea-modal">
 
             </textarea>
              
-                
+                </div>
              
          </div>
 
@@ -668,10 +660,6 @@
          <div class="checkbox">
                    <input id="user-privacy"  type="checkbox"  value="true" name="user-privacy"  class="visually-hidden  input-checkbox">
         
-                        <label for="user-privacy" class="label-checkbox">
-                            I accept the terms and conditions of the
-                        
-
                         <span class="span-checkbox">
                             <svg width="10" height="8" class="svg-checkbox">
                                 <use href="./images/icon-checkbox.svg#icon-Checkbox">
@@ -680,28 +668,23 @@
                             </svg>
                         </span>
 
-                            
-                            <a class="a-ladel">
-                                Privacy Policy
-                            </a>
-
-
-                             
-                        
-                        </label>
-
-
-                        
-               <button class="button-6element">
-                    Send
-                   </button>
                    
-                 
+                <label for="user-privacy" class="label-checkbox">
+                    I accept the terms and conditions of the
+                    
+                    <a class="a-ladel">
+                        Privacy Policy
+                    </a>
+                     
+                </label>
                    
                 </div>
           
                    
-                  
+                 <button class="button-6element">
+                    Send
+                 </button>
+                
 
            </div>
          
