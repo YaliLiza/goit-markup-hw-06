@@ -908,7 +908,7 @@
                  }
 
                     
-                 .input-checkbox:checked{
+                  :checked  .input-checkbox {
                     background-color: #404bbf;
                     border: none;
                     fill:#F4F4FD;
