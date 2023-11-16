@@ -907,7 +907,12 @@
 
                  }
 
-
+                    
+                 .input-checkbox:checked{
+                    background-color: #404bbf;
+                    border: none;
+                    fill:#F4F4FD;
+                 }
 
                  .textarea-modal:focus{
                     border-color: #4D5AE5;
