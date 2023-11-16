@@ -703,14 +703,11 @@
 
       .forma-footer{
         display: flex;
+        gap: 24px;
       }
 
-       .label-footer{
-         
-
-       }
-
-       .inpet-footer{
+       
+       .input-footer{
         width: 264px;
         height: 40px;
         border: 1px solid #ffffff;
@@ -751,5 +748,5 @@
 
          .icon-footer{
             margin-left: 16px;
-            
+
          }
