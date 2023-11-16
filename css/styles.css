@@ -370,6 +370,7 @@
             line-height: 24px;
             /* 150% */
             letter-spacing: 0.32px;
+            margin-bottom: 16px;
     }
         .logotype-studio{
             color: var(--CLOUD, #F4F4FD);
@@ -621,8 +622,8 @@
 
         
 
-        .p-foot{
-            margin-bottom: 16px;
+        .p-foot {
+             
             font-weight: 500;
             font-size: 16px;
             line-height: 1.5;
@@ -658,8 +659,10 @@
              
 
         }
-
-        .a-foot:focus{
+            .a-foot:hover{
+                background-color: #31d0aa;
+            }
+        .a-foot:focus {
             background-color: #31d0aa;
         }
 
