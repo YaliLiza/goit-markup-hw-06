@@ -820,7 +820,7 @@
             fill: #ffffff
          }
 
-         .butonn-registration  .icon-modal:focus {
+         .butonn-registration:focus .icon-modal{
                      fill: #ffffff
                  }
 
@@ -989,6 +989,12 @@
 
 
 
+                     
+                     
+   
+                         
+                       
+          
                     
                      
 
