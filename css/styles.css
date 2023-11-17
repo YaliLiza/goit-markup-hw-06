@@ -989,6 +989,7 @@
 
 
                     .button-6element{
+                        margin: auto;
                         display: block;
                         min-width: 169px;
                         height: 56px;
