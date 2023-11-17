@@ -527,7 +527,7 @@
 
 
 
-                   input:focus .svg-modal{
+                   input:focus + .svg-modal{
                     fill: #4D5AE5;
                   }
 
