@@ -873,7 +873,9 @@
                  }
 
 
-                  
+                 .input-modal:focus{
+                    border-color: #4D5AE5;
+                 }
 
                  .svg-modal{
                     position: absolute;
@@ -884,9 +886,11 @@
 
                  }
 
-                 .input-modal:focus .svg-modal{
-                    fill: #4D5AE5;
-                 }
+                 
+
+              #my-input:focus .svg-modal{
+                fill: #4D5AE5;
+              }
 
                  .textarea-modal{
                     width: 100%;
