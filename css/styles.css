@@ -527,13 +527,9 @@
 
 
 
-         span input:checked{
-                background-color:#404bbf;
-                border: none;
-                fill:#F4F4FD;
+                   input:focus .svg-modal{
+                    fill: #4D5AE5;
                   }
-
-
 
 
         .p-div{
