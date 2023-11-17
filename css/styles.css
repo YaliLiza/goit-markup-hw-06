@@ -860,6 +860,11 @@
 
 
                  }
+  
+
+                .input-checkbox:checked + label .span-checkbox{
+                    background-color:#404bbf;
+                }
 
 
                  .input-in-icon{
