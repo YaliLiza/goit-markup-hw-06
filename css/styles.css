@@ -1,6 +1,7 @@
 
  :root{
       --color: #4d5ae5;
+      --color2:#F4F4FD;
  } 
 
 .logotype-web{
@@ -864,6 +865,8 @@
 
                 .input-checkbox:checked + label .span-checkbox{
                     background-color:#404bbf;
+                    border: none;
+                    fill: var(--color2);
                 }
 
 
