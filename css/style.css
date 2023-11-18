@@ -1,0 +1,50 @@
+ .logotype-web {
+     color: var(--IRIS, #4D5AE5);
+     font-family: 'Raleway', sans-serif;
+     font-size: 18px;
+     font-style: normal;
+     font-weight: 700;
+     line-height: 21px;
+     /* 116.667% */
+     letter-spacing: 0.54px;
+     text-transform: uppercase;
+     line-height: 1.17}
+
+         .logotype {
+             color: var(--NAVY-BLUE, #4d5ae5);
+             font-family: 'Raleway', sans-serif;
+             font-size: 18px;
+             font-style: normal;
+             font-weight: 700;
+             line-height: 1.17;
+             /* 116.667% */
+             letter-spacing: 0.54px;
+             text-transform: uppercase;
+             margin-right: 76px;
+    
+         }
+
+                 .contacts-address {
+                     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+                     color: var(--SLATE, #434455);
+                     /* Body */
+                     font-family: 'Roboto', sans-serif;
+                     font-size: 16px;
+                     font-style: normal;
+                     font-weight: 400;
+                     line-height: 24px;
+                     /* 150% */
+                     letter-spacing: 0.32px;
+                 }
+
+                                 .contacts-address:hover {
+                                     color: var(--OCEAN, #404bbf);
+                                     /* Body */
+                                     font-family: 'Roboto', sans-serif;
+                                     font-size: 16px;
+                                     font-style: normal;
+                                     font-weight: 400;
+                                     line-height: 24px;
+                                     /* 150% */
+                                     letter-spacing: 0.32px;
+                                 }
