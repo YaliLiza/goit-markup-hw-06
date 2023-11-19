@@ -1054,18 +1054,13 @@
 
    .mobile-meny-close-btn{
     position: absolute;
-    left: 0;
+    top: 0;
     right: 0;
-    border: none;
-    border-color: transparent;
+     
+    background-color: transparent;
     padding: 0%;
     line-height: 0%;
-    stroke: #2E2F42;
-    bottom: none;
-        background-color: transparent;
-        padding: 0%;
-        line-height: 0%;
-        border: none;
+    border: none;
    }
 
    .mobile-meny{
