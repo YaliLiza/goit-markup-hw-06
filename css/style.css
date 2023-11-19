@@ -401,15 +401,7 @@
      align-items: center;
  }
 
- .container {
-     margin: 0 auto;
-     width: 1158px;
-     padding: 0 15px;
-
-
-
-
- }
+  
 
  .team-description {
      text-align: center;
@@ -572,7 +564,7 @@
 
  .logotype {
      display: inline-block;
-     margin-bottom: 16px;
+     
  }
 
  .description-bottom {
@@ -1051,3 +1043,108 @@
 
 }
 
+.container {
+    
+    padding-left: 16px;
+    padding-right: 16px;
+}
+ 
+   .mobile-meny-close-btn{
+    position: absolute;
+    left: 0;
+    right: 0;
+    
+    border: none;
+    border-color: transparent;
+    padding: 0%;
+    line-height: 0%;
+    stroke: #2E2F42;
+   }
+
+   .mobile-meny{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 9999999999;
+    background-color: #FFF;
+   }
+
+  .logotype-web{
+    color: var(--IRIS, #4D5AE5);
+        font-family: Raleway;
+        font-size: 18px;
+        display: flex;
+        align-items: center;
+        font-weight: 700;
+        line-height: 21px;
+        /* 116.667% */
+        letter-spacing: 0.54px;
+        text-transform: uppercase;
+  }
+
+     .mobile-open-btn{
+        bottom: none;
+         background-color: transparent ;
+         padding: 0%;
+         line-height: 0%;
+         border: none;
+     }
+  
+
+     .div-header{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+         
+     }
+
+
+     .page-header{
+        padding-top: 16px;
+        padding-bottom: 20px;
+     
+    }
+
+       /* HEADER MOBILE STYLE */
+
+   @media screen and (max-width:320px)   {
+      .page-header{
+        box-shadow: none;
+        border-bottom:none;
+      }
+ 
+   }
+  
+   @media screen and (min-width:320px){
+    .container {
+            margin-left: auto;
+            margin-right: auto;
+            width: 352px;
+    
+        }
+
+   }
+  
+    
+    
+ 
+
+  @media screen and (min-width: 768px) {
+      .container {
+          
+          width: 800px;
+
+      }
+
+  }
+
+  @media screen and (min-width: 1158px) {
+      .container {
+
+          width: 1158px;
+
+      }
+
+  }
