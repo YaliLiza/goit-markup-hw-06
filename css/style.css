@@ -1044,7 +1044,7 @@
 }
 
 .container {
-    
+    display: relative;
     padding-left: 16px;
     padding-right: 16px;
 }
@@ -1121,6 +1121,7 @@
   
    @media screen and (min-width:320px){
     .container {
+        
             margin-left: auto;
             margin-right: auto;
             width: 352px;
