@@ -473,8 +473,7 @@
 
  .portfolio {
 
-     padding-top: 120px;
-     padding-bottom: 120px;
+    padding: 96px 0;
 
  }
 
@@ -1290,7 +1289,7 @@ width: 288px;
 }
 
 .container {
-    display: relative;
+    margin: 0 auto;
     padding-left: 16px;
     padding-right: 16px;
 }
@@ -1576,6 +1575,32 @@ width: 288px;
         grid-template-columns: repeat(2, 1fr);
    }
 
+   .options{
+    margin: 0 auto;
+        display: grid;
+        flex-direction: column;
+        gap: 24px;
+        grid-template-columns: repeat(2, 1fr);
+   }
+
+  .modal-li{
+    width: 356px;
+  }
+ 
+   .div-ph{
+       display: flex;
+       padding: 32px 16px;
+       flex-direction: column;
+       justify-content: center;
+       align-items: flex-start;
+       align-self: stretch;
+       border-left: 1px solid #E7E9FC;
+       border-right: 1px solid #E7E9FC;
+       border-bottom: 1px solid #E7E9FC;
+       border-radius: 0px 0px 4px 4px;
+   }
+
+ 
 } 
        
 
