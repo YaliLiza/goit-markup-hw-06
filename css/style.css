@@ -1099,7 +1099,14 @@
             text-transform: capitalize;
     }
 
-  }
+    .div-benefits{
+        display: none;
+    }
+
+
+
+}
+
 
 
  
