@@ -737,7 +737,7 @@
  }
 
  .forma-footer {
-     display: flex;
+     
      gap: 24px;
  }
 
@@ -1223,8 +1223,42 @@ width: 288px;
         padding: 
      }
     
+      .forma-footer{
+        flex-direction: column;
+      }
+       
+     .description-bottom{
+        text-align: center;
+     }
     
-        }
+    .forms{
+        margin-left: 16px;
+    }
+    
+   .div-foot{
+    margin-top: -27px;
+
+   }
+   
+   .logotype{
+    margin: 20px 87px 17px 73px;
+   }
+  .p-foot{
+    margin: 72px 77px 16px;
+  }
+
+   .forms-paragraph{
+    margin: 35px 86px 15px;
+   }
+
+    .ul-foot{
+        margin: 17px 57px 17px 24px;
+    }
+
+    .subscrite-button{
+        margin: 26px 71px 95px 44px;
+    }
+    }
 
 
 
