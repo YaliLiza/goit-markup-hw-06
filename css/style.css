@@ -1600,11 +1600,46 @@ width: 288px;
        border-radius: 0px 0px 4px 4px;
    }
 
- 
+  .footer-container{  flex-direction: row;
+ flex-wrap: wrap;
+ width: 576px;
+ gap: 72px 24px
+}
+
+   .div-foot{
+    display: inline-block;
+        margin: 0;
+   }
+  .social{
+    margin: 0;
+  }
+
+  .forms{
+    margin: 0;
+        align-items: start;
+  }
+  .logotype{
+    font-family: 'Raleway', sans-serif;
+        text-transform: uppercase;
+        font-size: 18px;
+        line-height: 1.17em;
+        color: #4D5AE5;
+        letter-spacing: 0.03em;
+        text-decoration: none;
+        margin-right: 76px;
+  }
+
+  .forma-footer{
+    flex-direction: row;
+  }
 } 
        
 
- 
+ .forma-footer{
+    display: flex;
+         
+        gap: 24px
+ }
 
   @media screen and (min-width: 1158px) {
       .container {
