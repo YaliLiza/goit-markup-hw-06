@@ -1437,7 +1437,41 @@ width: 288px;
                 .menu-link:hover {
                     color: var(--OCEAN, #404bbf);
                 }
-    } 
+   
+   
+   
+                .header-background{
+                    width: 768px;
+                        height: 436px;
+                        flex-shrink: 0;
+                        background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office.jpg);
+                }
+   
+   
+        .title{
+            color: var(--WHITE, #FFF);
+                text-align: center;
+            
+                /* Header 1 */
+                font-family: Roboto;
+                font-size: 56px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: 60px;
+                /* 107.143% */
+                letter-spacing: 1.12px;
+        }
+   
+   .container{
+    margin: -110px 144px 37px -16px;
+   }
+   
+   .registration{
+    margin-top: 36px;
+   }
+   
+   
+            } 
        
 
  
