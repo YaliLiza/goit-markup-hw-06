@@ -1544,6 +1544,22 @@ width: 288px;
         letter-spacing: 0.32px;
 }
 
+ .description{
+    display: flex;
+        flex-wrap: wrap;
+        width: 356px;
+         height:  120px ;
+        top: 604px ;
+        left: 16px ;
+        gap: 8px;
+ }
+
+  .h-p{
+    margin-right: 91px;
+    display: inline;
+  }
+
+
 
 } 
        
