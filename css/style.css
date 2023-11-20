@@ -1028,20 +1028,24 @@
      border-radius: 4px;
      transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
  }
- 
 
-   .address-modal-mobile{
-    color: var(--IRIS, #4D5AE5);
+ @media screen and (max-width: 768px),
+ screen and (max-device-width: 768px) {
     
-        /* Header 3 */
-        font-family: Roboto;
-        font-size: 20px;
-        font-style: normal;
-        font-weight: 500;
-        line-height: 24px;
-        /* 120% */
-        letter-spacing: 0.4px;
-   }
+  .page-header.menu-nav{
+    display: none;
+  }
+  .page-header.address{
+    display: none;
+  }
+ }
+
+
+  
+
+ 
+  
+    
 
 .ul-window {
     display: flex;
