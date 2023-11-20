@@ -362,11 +362,13 @@
 
  .bottom {
      background: var(--NAVY-BLUE, #2E2F42);
-     padding: 100px 0;
+     
 
 
  }
-
+ .bottom{
+    padding: 100px 0;
+ }
  .description-bottom {
      color: var(--CLOUD, #F4F4FD);
      /* Body */
@@ -1200,7 +1202,29 @@ width: 288px;
     border: 1px;
           }
 
-    }
+          .bottom-mobile{
+            width: 320px ;
+            height: 664px ;
+             display: flex;
+             background-color: #2E2F42;
+          }
+
+          .footer-container{
+            display: flex;
+                flex-direction: column;
+                align-items: baseline;
+                align-content: space-around;
+                flex-wrap: wrap;
+          }
+
+     .bottom{
+        padding: ;
+     }
+    
+    
+        }
+
+
 
 
 
@@ -1363,6 +1387,8 @@ width: 288px;
             width: 352px;
     
         }
+
+        
 
    }
   
