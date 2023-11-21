@@ -1170,8 +1170,8 @@
    }
 
       .options{
-        display: flex;
-        flex-direction: column;
+         
+         
       }
 
        .div-ph{
@@ -1391,8 +1391,7 @@ width: 288px;
 
 
      .page-header{
-        padding-top: 16px;
-        padding-bottom: 20px;
+        
      
     }
 
@@ -1555,7 +1554,7 @@ width: 288px;
   }
 
   .li-benefits {
-        display: flex;
+         
             width: 356px;
             flex-direction: column;
             align-items: flex-start;
@@ -1575,7 +1574,7 @@ width: 288px;
         grid-template-columns: repeat(2, 1fr);
    }
 
-   .options{
+   .our-portfolio{
     margin: 0 auto;
         display: grid;
         flex-direction: column;
@@ -1648,20 +1647,138 @@ width: 288px;
 
       }
       
-      
+      .header-background{
+        width: 1440px;
+            height: 600px;
+            
+      }
+  
+  .header-background {
+      max-width: 1440px;
+      background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office.jpg);
+      background-size: cover;
+      padding: 188px 0;
+      background-repeat: no-repeat;
+      background-position: center;
   }
+     .div-benefits{
+        display: flex;
+         
+            align-items: center;
+            justify-content: center;
+            background-color: #f4f4fd;
+            border-radius: 4px;
+            margin-bottom: 8px;
+            height: 112px;
+     }
+  
+  .description {
+      color: var(--SLATE, #434455);
+      font-family: 'Roboto', sans-serif;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 24px;
+      letter-spacing: 0.32px;
+  }
+  
+  .description {
+      display: flex;
+      gap: 24px;
+  }
+
+  .container {
+      margin: 0 auto;
+      width: 1158px;
+      padding: 0 15px;
+  }
+
+ .li-benefits {
+     
+     width: 356px;
+     
+    }
 
   .div-benefits{
     border: 1px solid#8E8F99;
   }
-  .section-header-img{
-    max-width: 320px;
-        max-height: 432px;
-        margin: 0 auto;
-        padding: 72px 0;
-        background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/background-mobile.jpg);
-        background-position: center;
-        background-size: cover;
-        background-repeat: no-repeat;
-    }
   
+   .kinds {
+       color: var(--NAVY-BLUE, #2E2F42);
+       font-family: 'Roboto', sans-serif;
+       font-size: 20px;
+       font-style: normal;
+       font-weight: 500;
+       line-height: 24px;
+       letter-spacing: 0.4px;
+   }
+
+ .description {
+     color: var(--SLATE, #434455);
+     font-family: 'Roboto', sans-serif;
+     font-size: 16px;
+     font-style: normal;
+     font-weight: 400;
+     line-height: 24px;
+     letter-spacing: 0.32px;
+ }
+
+
+   .team {
+       background: var(--CLOUD, #F4F4FD);
+       padding: 120px 0;
+   }
+   .team-description {
+       color: var(--NAVY-BLUE, #2E2F42);
+       text-align: center;
+       font-family: 'Roboto', sans-serif;
+       font-size: 36px;
+       font-style: normal;
+       font-weight: 700;
+       line-height: 1.11;
+       letter-spacing: 0.72px;
+       text-transform: capitalize;
+       margin-bottom: 72px;
+   }
+
+ .biographies {
+     gap: 24px;
+     display: flex;
+ }
+
+
+.options {
+        display: flex;
+            flex-wrap: wrap;
+            column-gap: 24px;
+            row-gap: 48px;
+            flex-direction: row;
+        }
+
+
+.div-foot {
+    margin: auto;
+}
+
+.div-header {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 24px;
+    row-gap: 48px;
+    flex-direction: row;
+}
+
+.contacts {
+    display: flex;
+    gap: 40px;
+}
+
+    }
+
+   
+    
+   
+
+  
+
+     
