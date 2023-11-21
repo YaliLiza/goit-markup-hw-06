@@ -1084,7 +1084,8 @@
     }
 
   .title{
-    margin:-129px 16px;
+     width: 220px ;
+     margin: 0% auto;
     color: var(--WHITE, #FFF);
         color: var(--WHITE, #FFF);
             text-align: center;
@@ -1668,10 +1669,7 @@ width: 288px;
       width: 100%;
       background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office.jpg);
       background-size: cover;
-    display: flex;
-        justify-content: center;
-        align-content: space-around;
-        align-items: center;
+     
       background-repeat: no-repeat;
       background-position: center;
   }
@@ -1792,7 +1790,12 @@ width: 288px;
    
     
    
-
+.header-background{
+    display: flex;
+        justify-content: center;
+        align-content: space-around;
+        align-items: center;
+}
   
 
      
