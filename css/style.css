@@ -1423,7 +1423,14 @@ width: 288px;
  
 
   @media screen and (min-width: 768px)  {
-.container {
+
+    .mobile-meny{
+        display: none;
+    }
+
+
+
+    .container {
 
         width: 768px;
 
@@ -1641,7 +1648,11 @@ width: 288px;
  }
 
   @media screen and (min-width: 1158px) {
-      .container {
+    .mobile-meny {
+            display: none;
+        }
+    
+    .container {
 
           width: 1158px;
 
