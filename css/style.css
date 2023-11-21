@@ -138,7 +138,7 @@
      max-width: 1440px;
      background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/ofific-dark.jpg) ;
      background-size: cover;
-     padding: 188px 0;
+     
      background-repeat: no-repeat;
      
     width: 320px;
@@ -1080,7 +1080,7 @@
    }
 
     .registration{
-        margin: 252px 0px -10px 57px;
+        margin: 50px 0px -10px 57px;
     }
 
   .title{
@@ -1232,7 +1232,7 @@ width: 288px;
    }
    
    .logotype{
-    margin: 20px 87px 17px 73px;
+    margin: 20px 87px 17px 0px;
    }
   .p-foot{
     margin: 72px 77px 16px;
@@ -1665,10 +1665,13 @@ width: 288px;
       }
   
   .header-background {
-      max-width: 1440px;
+      width: 100%;
       background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office.jpg);
       background-size: cover;
-      padding: 188px 0;
+    display: flex;
+        justify-content: center;
+        align-content: space-around;
+        align-items: center;
       background-repeat: no-repeat;
       background-position: center;
   }
